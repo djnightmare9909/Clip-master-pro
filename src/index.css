@@ -1,0 +1,35 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  
+  --color-dark: #0f172a;
+  --color-darker: #020617;
+  --color-card: #1e293b;
+  --color-card-hover: #334155;
+  --color-border-custom: #334155;
+  
+  --shadow-custom: 0 10px 40px rgba(0, 0, 0, 0.3);
+}
+
+@layer base {
+  body {
+    background: linear-gradient(135deg, var(--color-darker) 0%, var(--color-dark) 100%);
+    color: #f8fafc;
+    min-height: 100vh;
+  }
+}
+
+@layer utilities {
+  .bg-gradient-custom {
+    background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 50%, #ec4899 100%);
+  }
+  
+  .text-gradient-custom {
+    background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 50%, #ec4899 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+}

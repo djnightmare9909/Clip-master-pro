@@ -1,0 +1,8 @@
+{
+  "name": "ClipMaster Pro",
+  "description": "A professional-grade video trimming and clipping tool that works entirely in your browser.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
